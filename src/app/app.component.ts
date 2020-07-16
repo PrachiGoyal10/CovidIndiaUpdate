@@ -1,11 +1,6 @@
 import { Component, OnInit, ViewChild, } from '@angular/core';
 import { HttpClient,HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import {map,retry} from 'rxjs/operators';
 import { NgForm } from '@angular/forms';
-
-// import { Http, Response, Headers, RequestOptions, ResponseContentType, URLSearchParams } from '@angular/http';
-// import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-root',
@@ -53,11 +48,6 @@ export class AppComponent implements OnInit{
             {'Content-Type': 'application/json'}
           )
         }
-        // {
-        //   headers:new HttpHeaders({	"x-rapidapi-host": "covid-19-india-data-by-zt.p.rapidapi.com",
-        //   "x-rapidapi-key": "2c90718751mshbff895d4d133d7cp141c28jsn3a7b03e6523e",
-        // })
-        // } 
         )
         .subscribe((res) => {
           console.log(res);
