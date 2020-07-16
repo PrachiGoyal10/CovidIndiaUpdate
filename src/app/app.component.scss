@@ -1,0 +1,50 @@
+.bg{
+    background-image: url('src\bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+.srchform{
+    text-align: center;  
+}
+
+.mainhead{  
+    text-align: center;
+        // color: black;
+}
+
+.mainhead2{  
+    text-align: center;
+}
+
+.desc {
+    padding: 5px;
+    font-weight: 300;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+    text-align: center;
+    // font-family: Verdana, Geneva, Tahoma, sans-serif;
+    // background-color:  #ffe6e6;
+
+   }
+
+
+.desc_1{
+    background-color:rgba(117, 190, 218, 0.5);  
+    // background-color: black;
+    padding: 5px;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+    // font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+input.ng-invalid{
+    border: 1px solid red;
+}
+
